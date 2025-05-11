@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="project_style.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <a href="" class="logo">
+                    <h1 >SV</h1>
+                </a>
+                <a href="#" class="toggleNav">
+                    <i class="fa fa-align-justify" title="Align Justify"> Меню</i>
+                </a>
+                <ul class="menu">
+                    <li class="item nav"><a href="index.html">Про мене</a></li>
+                    <li class="item nav"><a href="index.html#scill">Мої вміння</a></li>
+                    <li class="item nav"><a href="projects.html">Мої проекти</a></li>
+                    <li class="item icon"> 
+                        <a href="https://www.facebook.com/">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li class="item icon">
+                        <a href="https://www.instagram.com/">
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li class="item icon">
+                        <a href="https://www.youtube.com/">
+                            <i class="fa fa-youtube"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+
+            <div class="projects">
+                <h1 class="name">Проекти</h1>
+
+                <div class="card">
+                    <div class="card_img">
+                        <img src="img/marketplace.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h1 class="name pr"> CraftMarket онлайн-маркетплейс для продажу цифрових та фізичних товарів</h1>
+                        <p class="info">Багатофункціональна платформу, де продавці можуть виставляти товари (цифрові або фізичні), а покупці — 
+                            переглядати, шукати, купувати й залишати відгуки. Сервіс надає повноцінну комерційну інфраструктуру: оплати, профілі,
+                            рейтинг, категорії, фільтри, модерацію.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_img">
+                        <img src="img/hp.jpg" alt="">
+                    </div>
+                    <div class="content b">
+                        <h1 class="name prb"> ClimaBot — Роботизована система керування мікрокліматом у приміщенні</h1>
+                        <p class="info">Автономна мобільна система, яка автоматично переміщується приміщенням, вимірює основні показники мікроклімату 
+                            (температура, вологість, вміст CO₂, освітленість) і керує кліматичними пристроями (зволожувачами, вентиляторами, обігрівачами) 
+                            для підтримки комфортного середовища. Проєкт поєднує робототехніку, сенсорні системи, автоматизацію та IoT.</p>
+                    </div>
+                </div>
+
+            </div>
+        </main>
+        <footer>
+            <div class="footer_cont">
+                <h1>Serhii Vozniuk</h1>
+                <ul class="link">
+                    <li class="item"><a href="index.html">Про мене</a></li>
+                    <li class="item"><a href="index.html#scill">Мої вміння</a></li>
+                    <li class="item"><a href="#">Мої проекти</a></li>
+                </ul>
+                <ul class="icon">
+                    <li class="item"> 
+                        <a href="#">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="#">
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="#">
+                            <i class="fa fa-youtube"></i>
+                        </a>
+                    </li>
+                </ul>
+                
+            </div>
+            
+        </footer>
+        
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>
+            $(function() {
+            $('.toggleNav').on('click',function() {
+            $('nav .menu').toggleClass('open');
+            });
+            });
+        </script>
+</body>
+</html>
